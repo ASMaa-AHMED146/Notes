@@ -127,7 +127,7 @@ function EDIT(index)
 
 
 function DELETE(index)
-{   let conf=confirm("Are yoyu sure you want to delete this note?");
+{   let conf=confirm("Are you sure you want to delete this note?");
     if(!conf)
     {
         return;
